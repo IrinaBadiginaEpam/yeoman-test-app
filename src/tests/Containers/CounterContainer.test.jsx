@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 
-import { CounterContainer } from '../containers/CounterContainer';
+import { CounterContainer } from '../../containers/CounterContainer';
 
 const props = {
   increment: () => {},
