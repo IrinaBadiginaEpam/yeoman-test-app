@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.0.2",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-config-prettier": "^2.9.0",
