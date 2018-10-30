@@ -29,12 +29,15 @@ export class CounterContainer extends React.Component {
 
   render() {
     return (
-      <Counter
-        counter={this.props.counter}
-        increment={this.increment}
-        decrement={this.decrement}
-        incrementIfOdd={this.incrementIfOdd}
-      />
+      <React.Fragment>
+        <Counter
+          counter={this.props.counter}
+          increment={this.increment}
+          decrement={this.decrement}
+          incrementIfOdd={this.incrementIfOdd}
+        />
+        <a href="/newPage">Go to the new page</a>
+      </React.Fragment>
     )
   }
 }
