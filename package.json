@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "author": "Irina_Badigina@epam.com",
   "dependencies": {
+    "chromedriver": "^2.43.1",
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
@@ -30,16 +31,19 @@
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.4.0",
     "husky": "^0.14.3",
+    "nightwatch": "^0.9.21",
     "node-plop": "^0.5.5",
     "plop": "^1.7.4",
     "prettier": "^1.14.2",
     "pretty-quick": "^1.6.0",
-    "react-app-rewired": "^1.6.2"
+    "react-app-rewired": "^1.6.2",
+    "selenium-server": "^3.14.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
+    "test-e2e": "nightwatch --config nightwatch.conf.js",
     "eject": "react-scripts eject",
     "format": "prettier --write '**/*.{js,jsx,json,md}'",
     "format:changed": "pretty-quick",
